@@ -2,7 +2,7 @@ import { useState } from 'react';
 import axios from 'axios';
 import { marked } from 'marked';
 
-const API_BASE = import.meta.env.VITE_API_BASE || 'http://localhost:4000';
+const API_BASE = import.meta.env.VITE_API_BASE || 'https://ai-note-server.onrender.com';
 
 export default function App() {
   const [transcript, setTranscript] = useState('');
